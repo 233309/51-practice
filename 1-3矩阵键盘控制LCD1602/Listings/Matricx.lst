@@ -1,0 +1,60 @@
+C51 COMPILER V9.60.0.0   MATRICX                                                           06/16/2024 20:32:35 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MATRICX
+OBJECT MODULE PLACED IN .\Objects\Matricx.obj
+COMPILER INVOKED BY: D:\Compiler\keil5\C51\BIN\C51.EXE Matricx.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Lis
+                    -tings\Matricx.lst) TABS(2) OBJECT(.\Objects\Matricx.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include"Delay.h"
+   3          unsigned char Matricx()
+   4          {
+   5   1        unsigned char keynum=0;
+   6   1        P2=0xff;
+   7   1        P2_3=0;
+   8   1        if(P2_7==0){Delay(20);while(P2_7==0);Delay(20);keynum=1;}
+   9   1        if(P2_6==0){Delay(20);while(P2_6==0);Delay(20);keynum=5;}
+  10   1        if(P2_5==0){Delay(20);while(P2_5==0);Delay(20);keynum=9;}
+  11   1        if(P2_4==0){Delay(20);while(P2_4==0);Delay(20);keynum=13;}
+  12   1      
+  13   1        P2=0xff;
+  14   1        P2_2=0;
+  15   1        if(P2_7==0){Delay(20);while(P2_7==0);Delay(20);keynum=2;}
+  16   1        if(P2_6==0){Delay(20);while(P2_6==0);Delay(20);keynum=6;}
+  17   1        if(P2_5==0){Delay(20);while(P2_5==0);Delay(20);keynum=10;}
+  18   1        if(P2_4==0){Delay(20);while(P2_4==0);Delay(20);keynum=14;}
+  19   1        
+  20   1        P2=0xff;
+  21   1        P2_1=0;
+  22   1        if(P2_7==0){Delay(20);while(P2_7==0);Delay(20);keynum=3;}
+  23   1        if(P2_6==0){Delay(20);while(P2_6==0);Delay(20);keynum=7;}
+  24   1        if(P2_5==0){Delay(20);while(P2_5==0);Delay(20);keynum=11;}
+  25   1        if(P2_4==0){Delay(20);while(P2_4==0);Delay(20);keynum=15;}
+  26   1        
+  27   1        P2=0xff;
+  28   1        P2_0=0;
+  29   1        if(P2_7==0){Delay(20);while(P2_7==0);Delay(20);keynum=4;}
+  30   1        if(P2_6==0){Delay(20);while(P2_6==0);Delay(20);keynum=8;}
+  31   1        if(P2_5==0){Delay(20);while(P2_5==0);Delay(20);keynum=12;}
+  32   1        if(P2_4==0){Delay(20);while(P2_4==0);Delay(20);keynum=16;}
+  33   1        
+  34   1        
+  35   1        return keynum;
+  36   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    393    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
